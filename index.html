@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love to Edit - Professional Task Manager</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❤️</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Popunder Ad Script -->
+    <script type='text/javascript' src='//pl27552104.revenuecpmgate.com/cc/21/7d/cc217de6993fe794061c22128cdd3ce7.js'></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Professional Navigation Bar -->
+        <nav class="main-nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <div class="logo-graphic">
+                        <div class="heart-shape">
+                            <div class="pencil-icon">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="nav-brand-name">TO - DO LIST</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#about" class="nav-link">
+                        <i class="fas fa-info-circle"></i>
+                        About
+                    </a>
+                    <a href="#privacy" class="nav-link">
+                        <i class="fas fa-shield-alt"></i>
+                        Privacy Policy
+                    </a>
+                    <a href="https://www.instagram.com/im_winner_888?igsh=cG5pNThyMjJ1Mm91" target="_blank" class="nav-link social-nav-link">
+                        <i class="fab fa-instagram"></i>
+                        Follow Us
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="main-logo">
+                        <div class="heart-shape">
+                            <div class="pencil-icon">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h1>Love to Edit</h1>
+                </div>
+                <p class="subtitle">
+                    <i class="fas fa-magic"></i>
+                    Streamline your productivity with intelligent task management
+                </p>
+            </div>
+        </header>
+
+        <!-- Native Banner Ad Section -->
+        <section class="native-banner-section">
+            <div class="native-banner-container">
+                <script async="async" data-cfasync="false" src="//pl27552141.revenuecpmgate.com/3f6e892198ce7c470b1c2c649a59b26d/invoke.js"></script>
+                <div id="container-3f6e892198ce7c470b1c2c649a59b26d"></div>
+            </div>
+        </section>
+
+        <main class="main-content">
+            <section class="task-input-section">
+                <div class="input-wrapper">
+                    <i class="fas fa-plus input-icon"></i>
+                    <input type="text" id="taskInput" placeholder="What needs to be done?">
+                    <div class="alarm-wrapper">
+                        <i class="fas fa-bell alarm-icon"></i>
+                        <input type="datetime-local" id="taskAlarm" class="alarm-input">
+                    </div>
+                    <div class="photo-upload-wrapper">
+                        <label for="taskPhoto" class="photo-upload-label">
+                            <i class="fas fa-camera"></i>
+                            <span>Add Photo</span>
+                        </label>
+                        <input type="file" id="taskPhoto" accept="image/*" class="photo-input">
+                    </div>
+                    <button id="addBtn" class="add-button">
+                        <i class="fas fa-plus"></i>
+                        <span>Add Task</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="task-stats">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <span class="stat-number" id="totalTasks">0</span>
+                    <span class="stat-label">Total Tasks</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <span class="stat-number" id="completedTasks">0</span>
+                    <span class="stat-label">Completed</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <span class="stat-number" id="pendingTasks">0</span>
+                    <span class="stat-label">Pending</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <span class="stat-number" id="alarmedTasks">0</span>
+                    <span class="stat-label">With Alarms</span>
+                </div>
+            </section>
+
+            <!-- Advertisement Section -->
+            <section class="ads-section">
+                <div class="ads-container">
+                    <script type="text/javascript">
+                        atOptions = {
+                            'key' : 'fc06cf46668839d58b2772903954cebb',
+                            'format' : 'iframe',
+                            'height' : 250,
+                            'width' : 300,
+                            'params' : {}
+                        };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/fc06cf46668839d58b2772903954cebb/invoke.js"></script>
+                </div>
+            </section>
+
+            <section class="task-list-section">
+                <div class="section-header">
+                    <h2>
+                        <i class="fas fa-list-check"></i>
+                        Your Tasks
+                    </h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">
+                            <i class="fas fa-th-large"></i>
+                            All
+                        </button>
+                        <button class="filter-btn" data-filter="pending">
+                            <i class="fas fa-clock"></i>
+                            Pending
+                        </button>
+                        <button class="filter-btn" data-filter="completed">
+                            <i class="fas fa-check-circle"></i>
+                            Completed
+                        </button>
+                        <button class="filter-btn" data-filter="alarmed">
+                            <i class="fas fa-bell"></i>
+                            Alarmed
+                        </button>
+                    </div>
+                </div>
+                <ul id="taskList" class="task-list"></ul>
+                <div id="emptyState" class="empty-state" style="display: none;">
+                    <i class="fas fa-clipboard-list empty-icon"></i>
+                    <p>No tasks yet. Start by adding your first task above!</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- About Section -->
+        <section id="about" class="info-section">
+            <div class="info-content">
+                <h2>
+                    <i class="fas fa-info-circle"></i>
+                    About Love to Edit
+                </h2>
+                <p>Love to Edit is a professional task management application designed to streamline your productivity workflow. Our intelligent system combines powerful task organization with visual elements and smart reminders to help you achieve more every day.</p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-tasks"></i>
+                        <h3>Task Management</h3>
+                        <p>Organize and prioritize your tasks with ease</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-bell"></i>
+                        <h3>Smart Alarms</h3>
+                        <p>Never miss important deadlines with our audio reminder system</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-camera"></i>
+                        <h3>Photo Integration</h3>
+                        <p>Add visual context to your tasks with photo attachments</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Policy Section -->
+        <section id="privacy" class="info-section">
+            <div class="info-content">
+                <h2>
+                    <i class="fas fa-shield-alt"></i>
+                    Privacy Policy
+                </h2>
+                <p>Your privacy is important to us. This policy explains how we handle your data when you use Love to Edit.</p>
+                <div class="privacy-details">
+                    <div class="privacy-item">
+                        <h3>Data Storage</h3>
+                        <p>All task data is stored locally in your browser using localStorage. We do not collect, store, or transmit any personal information to external servers.</p>
+                    </div>
+                    <div class="privacy-item">
+                        <h3>Photo Handling</h3>
+                        <p>Photos you upload are converted to base64 format and stored locally. They are never uploaded to our servers or shared with third parties.</p>
+                    </div>
+                    <div class="privacy-item">
+                        <h3>Third-Party Services</h3>
+                        <p>We use Font Awesome for icons and Google Fonts for typography. These services may collect usage analytics as per their respective privacy policies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="app-footer">
+            <div class="footer-content">
+                <div class="brand-section">
+                    <div class="brand-logo">
+                        <div class="heart-shape">
+                            <div class="pencil-icon">
+                                <i class="fas fa-pencil-alt"></i>
+                            </div>
+                        </div>
+                        <span class="brand-name">Love to Edit</span>
+                    </div>
+                    <p class="brand-tagline">
+                        <i class="fas fa-star"></i>
+                        Your productivity companion
+                    </p>
+                </div>
+                <div class="social-section">
+                    <a href="https://www.instagram.com/im_winner_888?igsh=cG5pNThyMjJ1Mm91" target="_blank" class="social-link" title="Follow us on Instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>@im_winner_888</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    <i class="fas fa-copyright"></i>
+                    &copy; 2024 Love to Edit. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Audio Alarm Modal -->
+    <div id="audioAlarmModal" class="audio-modal" style="display: none;">
+        <div class="audio-modal-content">
+            <div class="audio-modal-header">
+                <i class="fas fa-bell-ringing"></i>
+                <h3>Task Reminder!</h3>
+            </div>
+            <div class="audio-modal-body">
+                <p id="alarmTaskText"></p>
+                <div class="audio-controls">
+                    <button id="stopAlarmBtn" class="stop-alarm-btn">
+                        <i class="fas fa-stop"></i>
+                        Stop Alarm
+                    </button>
+                    <button id="snoozeAlarmBtn" class="snooze-alarm-btn">
+                        <i class="fas fa-clock"></i>
+                        Snooze (5 min)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
